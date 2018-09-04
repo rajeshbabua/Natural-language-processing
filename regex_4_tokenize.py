@@ -12,3 +12,11 @@ pattern = r'''(?x)   ####set flag to allow verbose regexps
 ...       |[][.,;"'?():-_`]  ##there are separate tokens; includes ], [
 ...'''
 nltk.regexp_tokenize(text,pattern)
+
+##########################################################################
+################# string formatting
+#########################################################################
+
+words = ("asdfb","dof","cat","ther","dfre")
+print ('{}->{};'.format('cat',words[3]))
+
