@@ -1,2 +1,2 @@
 # Natural-language-processing
-using python
+using python & tensorflow, keras 
