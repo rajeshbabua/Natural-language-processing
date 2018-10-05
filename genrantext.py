@@ -1,4 +1,9 @@
 ####You can Generate random text from the given text. 
+import nltk
+from nltk.tokenize import word_tokenize
+
+
+################function for the text generation 
 def m(cfdist, word, num=20):
   for i in range(num):
     print(word, end=' ')
